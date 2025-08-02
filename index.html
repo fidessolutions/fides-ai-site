@@ -2,107 +2,109 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Fides AI - Tailored Solutions</title>
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fides AI – Tailored Solutions</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
+  <!-- ── HEADER ─────────────────────────────────────────── -->
   <header>
-    <img src="assets/logo.png" alt="Fides AI Logo" class="logo" />
-    <nav>
-      <a href="#mission">Mission</a>
-      <a href="#services">Services</a>
-      <a href="#story">Story</a>
-      <a href="#contact" class="contact-btn">Contact</a>
-    </nav>
+    <a href="index.html" class="logo-link">
+      <img src="assets/logo.png" alt="Fides AI Logo" class="logo"/>
+    </a>
+
+    <div class="header-right">
+      <a href="contact.html" class="contact-btn">Contact Us</a>
+
+      <button class="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu">
+        <a href="#mission">Mission</a>
+        <a href="#services">Services</a>
+        <a href="#story">Story</a>
+      </nav>
+    </div>
   </header>
 
-  <!-- HERO -->
-  <section class="landing hero">
-    <div class="hero-content">
-      <h1 class="gradient-text">AI-POWERED AUTOMATION. BUILT ON TRUST.</h1>
-      <p>Fides AI helps small businesses streamline their operations with intelligent virtual agents that replace repetitive tasks — affordably, reliably, and securely.</p>
-      <a href="#contact" class="btn-primary">Get Started</a>
-    </div>
-  </section>
+  <!-- ── MAIN ────────────────────────────────────────────── -->
+  <main>
+    <!-- HERO -->
+    <section class="hero reveal">
+      <div class="hero-content">
+        <h1>AI-Powered Automation.<br>Built on Trust.</h1>
+        <p>Fides AI helps small businesses streamline their operations with intelligent virtual agents that replace repetitive tasks — affordably, reliably, and securely.</p>
+        <a href="contact.html" class="btn-primary">Get Started</a>
+      </div>
+    </section>
 
-  <!-- MISSION -->
-  <section id="mission" class="mission reveal">
-    <div class="content">
-      <img src="assets/AI_IMAGE.png" alt="AI Visual Image" />
-      <div>
-        <h2>We harness AI to empower everyday businesses.</h2>
-        <p>At Fides, we believe in accessible automation. Our goal is to give small teams the power of full support staff — without the overhead.</p>
+    <!-- MISSION -->
+    <section id="mission" class="mission reveal">
+      <div class="mission-content">
+        <div class="mission-text">
+          <h2>We harness AI to empower everyday businesses.</h2>
+          <p>At Fides, we believe in accessible automation. Our goal is to give small teams the power of full support staff — without the overhead.</p>
+        </div>
+        <div class="mission-image">
+          <img src="assets/AI_IMAGE.png" alt="AI Visual"/>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SERVICES -->
-  <section id="services" class="services reveal">
-    <h2>Services</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>Automated Inbox Agents</h3>
-        <p>We build custom AI tools to automatically reply to common emails with smart, human-like responses.</p>
-        <ul>
-          <li>Handles enquiries, follow-ups, and FAQs</li>
-          <li>Custom tone and logic</li>
-        </ul>
+    <!-- SERVICES -->
+    <section id="services" class="services reveal">
+      <h2>Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Automated Inbox Agents</h3>
+          <p>Custom AI that replies to routine emails with human-like clarity.</p>
+          <ul>
+            <li>Handles enquiries, follow-ups & FAQs</li>
+            <li>Fully custom tone / logic</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <h3>AI Calendar & Coordination</h3>
+          <p>Connect your calendar and let our AI schedule, confirm, and follow-up automatically.</p>
+          <ul>
+            <li>Adds events</li>
+            <li>Sends emails</li>
+            <li>Suggests best times</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <h3>Website & Form Bots</h3>
+          <p>Bots that live on your site, answer instantly, and collect hot leads.</p>
+          <ul>
+            <li>Boost conversions</li>
+            <li>24/7 FAQ answers</li>
+            <li>Lead capture & routing</li>
+          </ul>
+        </div>
       </div>
-      <div class="card">
-        <h3>AI Calendar & Coordination</h3>
-        <p>Sync your calendar, and our AI will handle scheduling and confirmations automatically.</p>
-        <ul>
-          <li>Adds events</li>
-          <li>Emails participants</li>
-          <li>Suggests meeting times</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Website & Form Bots</h3>
-        <p>We create bots that live on your site or form and respond instantly to queries.</p>
-        <ul>
-          <li>Boost conversions</li>
-          <li>Answer FAQs</li>
-          <li>Collect lead data</li>
-        </ul>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- STORY -->
-  <section id="story" class="story reveal">
-    <h2>Our Story</h2>
-    <p>
-      Like many young founders, we’ve built startups the hard way — juggling emails, replying to leads at midnight, and manually updating spreadsheets that never stayed in sync. We’ve wasted hours on tasks that felt endless, not because we wanted to, but because there wasn’t an affordable way to automate them.<br><br>
-      Fides AI was born out of that frustration. This isn’t theory — it’s personal. We set out to create the tool we always needed: one that could replace the repetitive grind with intelligent, tailored automation. Now, we’re helping others do the same — saving time, reducing burnout, and giving small teams the superpowers they deserve.
-    </p>
-  </section>
+    <!-- STORY -->
+    <section id="story" class="story reveal">
+      <h2>Our Story</h2>
+      <p>
+        Like many young founders, we juggled emails at midnight and updated spreadsheets that never stayed in sync. Time vanished into repetitive admin.<br><br>
+        Fides AI was born out of that frustration. We built the tool we always needed — automation that fits your workflow, rescues your time, and scales as you grow.
+      </p>
+    </section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="contacts reveal">
-    <h2>Meet the Founders</h2>
-    <div class="contact-grid">
-      <div class="contact-card">
-        <h3>GK — George Kashirin</h3>
-        <p>Branding & Design Lead</p>
-        <p><a href="mailto:george@example.com">Email</a> | <a href="#">LinkedIn</a></p>
+    <!-- BOTTOM CTA -->
+    <section class="bottom-cta reveal">
+      <div class="cta-box">
+        <a href="contact.html" class="btn-secondary">Contact Us</a>
       </div>
-      <div class="contact-card">
-        <h3>ER — Edward Reeve</h3>
-        <p>Automation & Tech Integration</p>
-        <p><a href="mailto:edward@example.com">Email</a> | <a href="#">LinkedIn</a></p>
-      </div>
-      <div class="contact-card">
-        <h3>VS — Vas Salikhov</h3>
-        <p>Strategy & Client Development</p>
-        <p><a href="mailto:vas@example.com">Email</a> | <a href="#">LinkedIn</a></p>
-      </div>
-    </div>
-  </section>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer><p>© 2025 Fides Solutions. All rights reserved.</p></footer>
 
   <script src="script.js"></script>
 </body>
